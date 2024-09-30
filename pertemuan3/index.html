@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>Penulisan di Body</h1>
+        <p id="paragrafnya">Sebuah Paragraf</p>
+        <button type="button" onclick="toggleBerubah()">Tekan</button>
+    </div>
+<script>
+    const test = 1;
+    let counter = 1;
+    function toggleBerubah() {
+        document.getElementById("paragrafnya").innerHTML = counter
+        counter++
+    }
+</script>
+</body>
+</html>
